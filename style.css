@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap");
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Bebas Neue, sans-serif;
+  /* background: rgba(245, 245, 245, 0.421); */
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  font-size: 40px;
+  letter-spacing: 5px;
+  transition: 1.5s;
+}
+
+h1:hover {
+  color: rgb(171, 137, 92);
+}
+/* Loader */
+.loader {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.loader img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Image Container */
+.image-container {
+  margin: 10px 30%;
+}
+
+.image-container img {
+  width: 100ch;
+  margin-top: 7px;
+  border-radius: 30px;
+  transition: 1s;
+}
+
+.image-container img:hover {
+  box-shadow: -1px -3px 400px -18px rgba(26, 25, 25, 0.66);
+  -webkit-box-shadow: -1px -3px 400px -18px rgba(26, 25, 25, 0.66);
+  -moz-box-shadow: -1px -3px 400px -18px rgba(26, 25, 25, 0.66);
+  box-sizing: content-box;
+  width: 100%;
+  border: solid white 1px;
+  padding: 5px;
+}
+
+/* Media Query: Large Smartphone Vertical */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  .image-container {
+    margin: 10px;
+  }
+}
