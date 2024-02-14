@@ -1,6 +1,6 @@
 # Inifinte-Scroll
 
-#How it works/
+### How it works
 On-load the page will display X numbers of random photos. Scroll down to a certain amount, it will automatically load more random photos.
 
 If user search with a specific (from the search option) keyword, it will clear the page and display photos based on that keyword. At this stage, if user continue to scroll down, more photos will load based on before specified keyword.
